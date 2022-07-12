@@ -1,0 +1,113 @@
+.logo{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    margin-bottom: 100px;
+}
+
+.content{
+    margin-top: 4%;
+}
+
+.main-img{
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+}
+/* Arrows */
+.pic {
+    width: 70%;
+    height: 50vh;
+    background: url("http:unsplash.it/400x300");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .button {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 80px;
+    width: 100px;
+  }
+  
+  .button:before {
+    content: "";
+    width: 45px;
+    height: 10px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: 28px;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover:before {
+    right: 34px;
+    width: 35px;
+  }
+  
+  .button:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 15px 15px;
+    border-color: transparent transparent transparent red;
+    position: absolute;
+    top: 47%;
+    margin-top: -5px;
+    right: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover:after {
+    right: 34px;
+    right: 25px;
+  }
+
+  .button-2 {
+    position: absolute;
+    top: 30%;
+    left: 62%;
+    height: 80px;
+    width: 100px;
+  }
+  
+  .button-2:before {
+    content: "";
+    width: 45px;
+    height: 10px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: 28px;
+    transition: all 0.3s ease;
+  }
+  
+  .button-2:hover:before {
+    right: 34px;
+    width: 35px;
+  }
+  
+  .button-2:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 15px 15px;
+    border-color: transparent transparent transparent red;
+    position: absolute;
+    top: 47%;
+    margin-top: -5px;
+    right: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .button-2:hover:after {
+    right: 34px;
+    right: 25px;
+  }
